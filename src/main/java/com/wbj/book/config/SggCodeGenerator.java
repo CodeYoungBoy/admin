@@ -1,13 +1,11 @@
 package com.wbj.book.config;
 
 import com.baomidou.mybatisplus.annotation.DbType;
-import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.core.toolkit.StringPool;
 import com.baomidou.mybatisplus.generator.AutoGenerator;
 import com.baomidou.mybatisplus.generator.InjectionConfig;
 import com.baomidou.mybatisplus.generator.config.*;
 import com.baomidou.mybatisplus.generator.config.po.TableInfo;
-import com.baomidou.mybatisplus.generator.config.rules.DateType;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
 
@@ -25,10 +23,10 @@ import java.util.List;
  */
 public class SggCodeGenerator {
 
-    private static final String dbName = "book";
+    private static final String dbName = "mall";
     private static final String driverClassName = "com.mysql.cj.jdbc.Driver";
 
-    private static final String dbUrl = "jdbc:mysql://116.62.62.111:3306/" + dbName + "?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8";
+    private static final String dbUrl = "jdbc:mysql://localhost:3306/" + dbName + "?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8";
 
     private static final String dbUsername = "root";
     private static final String dbPassword = "root";
